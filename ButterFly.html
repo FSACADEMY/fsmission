@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Schmetterling [no WebGL, depth sorting]</title>
+  <link rel="stylesheet" href="newcssfile/ButterFly.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<canvas id="cnv"></canvas>
+<div id="butterfly" class="unselectable">Farjana Akhter</div>
+<audio controls autoplay>
+  <source src="ButterFly.mp3">
+  <source src="ButterFly.wav">
+</audio>
+<script async src="https://ga.jspm.io/npm:es-module-shims@1.6.3/dist/es-module-shims.js" crossorigin="anonymous"></script>
+<script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.150.1/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.150.1/examples/jsm/"
+    }
+  }
+</script>
+<!-- partial -->
+  <script type="module" src="newjsfile/ButterFly.js"></script>
+
+</body>
+</html>

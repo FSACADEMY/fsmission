@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&family=Macondo+Swash+Caps&display=swap');
+html, body {
+    min-height: 100%;
+}
+body{
+  overflow: hidden;
+  margin: 0;
+  background: linear-gradient(#face8D 75%, aquamarine);
+}
+canvas{
+  position: absolute;
+}
+
+#butterfly{
+  position: absolute;
+  font-family: 'Macondo Swash Caps', cursive;
+  font-size: 10vh;
+  width: 100%;
+  text-align: center;
+  bottom: 1vh;
+  color: maroon;
+}
+
+#player{
+  position: absolute;
+  opacity: 0.1;
+}
+#player:hover{
+  opacity: 1;
+}
+
+.unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
